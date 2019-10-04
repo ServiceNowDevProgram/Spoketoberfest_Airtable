@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_airtable.LICENSE</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>LICENSE</name>
+        <script><![CDATA[var LICENSE = Class.create();
+LICENSE.prototype = {
+    initialize: function() {},
+
+    type: 'LICENSE'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>daveslusher-sn</sys_created_by>
+        <sys_created_on>2019-10-04 15:44:40</sys_created_on>
+        <sys_id>04846865dbd8405053c6594e5e961991</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>LICENSE</sys_name>
+        <sys_package display_value="Airtable Spoke" source="x_snc_airtable">b8c35015db98cc1064dcf5861d9619b4</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Airtable Spoke">b8c35015db98cc1064dcf5861d9619b4</sys_scope>
+        <sys_update_name>sys_script_include_04846865dbd8405053c6594e5e961991</sys_update_name>
+        <sys_updated_by>daveslusher-sn</sys_updated_by>
+        <sys_updated_on>2019-10-04 15:45:10</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Airtable Spoke">b8c35015db98cc1064dcf5861d9619b4</application>
+        <file_path/>
+        <instance_id>c22a163edb6027006578f22ebf96198e</instance_id>
+        <instance_name>empabarnes</instance_name>
+        <name>sys_script_include_04846865dbd8405053c6594e5e961991</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_snc_airtable.LICENSE&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;LICENSE&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var LICENSE = Class.create();
+LICENSE.prototype = {
+    initialize: function() {},
+
+    type: 'LICENSE'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;daveslusher-sn&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-10-04 15:44:40&lt;/sys_created_on&gt;&lt;sys_id&gt;04846865dbd8405053c6594e5e961991&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;LICENSE&lt;/sys_name&gt;&lt;sys_package display_value="Airtable Spoke" source="x_snc_airtable"&gt;b8c35015db98cc1064dcf5861d9619b4&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Airtable Spoke"&gt;b8c35015db98cc1064dcf5861d9619b4&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_04846865dbd8405053c6594e5e961991&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;daveslusher-sn&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-10-04 15:45:10&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-580160866</payload_hash>
+        <record_name>LICENSE</record_name>
+        <reverted_from/>
+        <source>4d146ce1dbd8405053c6594e5e96193b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>daveslusher-sn</sys_created_by>
+        <sys_created_on>2019-10-04 15:45:10</sys_created_on>
+        <sys_id>a5a46c65dbd8405053c6594e5e961972</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d97723fbb0000001</sys_recorded_at>
+        <sys_updated_by>daveslusher-sn</sys_updated_by>
+        <sys_updated_on>2019-10-04 15:45:10</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>eda46c6500d84050ef4fdabf43e40071</update_guid>
+        <update_guid_history>eda46c6500d84050ef4fdabf43e40071:-580160866,1284686593d8405024ca7c5a09a147d3:-2057896028</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>daveslusher-sn</sys_created_by>
+        <sys_created_on>2019-10-04 15:46:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>3a018c7b99cd4dbe8ddd5ce2194a37e4</sys_id>
+        <sys_metadata>04846865dbd8405053c6594e5e961991</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>LICENSE</sys_name>
+        <sys_package display_value="Airtable Spoke" source="x_snc_airtable">b8c35015db98cc1064dcf5861d9619b4</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Airtable Spoke">b8c35015db98cc1064dcf5861d9619b4</sys_scope>
+        <sys_scope_delete display_value="">32c81004be984d609fd4d823fb1d6100</sys_scope_delete>
+        <sys_update_name>sys_script_include_04846865dbd8405053c6594e5e961991</sys_update_name>
+        <sys_update_version display_value="sys_script_include_04846865dbd8405053c6594e5e961991">a5a46c65dbd8405053c6594e5e961972</sys_update_version>
+        <sys_updated_by>daveslusher-sn</sys_updated_by>
+        <sys_updated_on>2019-10-04 15:46:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
